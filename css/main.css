@@ -143,7 +143,7 @@ h5 {
 
 p {
   margin-bottom: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   line-height: 1.7em; 
   padding-left: 20px;
 }
@@ -155,8 +155,8 @@ em {
   font-style: italic; }
 
 blockquote {
-  padding-top: 10px;
-  padding-bottom: 1px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 10px;
   margin-left: 20px;
 
@@ -165,11 +165,11 @@ blockquote {
   font-size: 1em;
   border-left: 3px solid #4F4F4F; 
 }
-blockquote p:last-child {
-  margin-bottom: 0; }
+/*blockquote p:last-child {
+  margin-bottom: 0; }*/
 
 ol, ul {
-  margin: 0 0 1.3em 2.5em; }
+  margin:  1em 2em; }
 ol li, ul li {
   margin: 0 0 .2em 0;
   line-height: 1.6em; }
@@ -230,15 +230,17 @@ th {
 }
 table thead tr th {
   text-align: center;
+  padding: 0px 0.8rem;
 }
 
 th:first-child, td:first-child {
-  padding: 0 15px 0 20px; 
+  /*padding: 0 15px 0 20px; */
 }
 
 tbody td {
   font-size: .85em; 
   border: 1px solid #363636;
+  padding: 0px 0.8rem;
 }
 td:last-child {
   padding-right: 10px; 
