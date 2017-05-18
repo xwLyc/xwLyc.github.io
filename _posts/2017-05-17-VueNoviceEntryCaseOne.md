@@ -65,7 +65,7 @@ tag: Vue
         </html>
 
 #### 2.main.js ----核心文件
-此处的`el: '#app'`, 表示的是index中的那个 `<div id="app"></div>`, 它要被 `App` 这个组件 `components: { App }` 的模板 `template: '<App/>'`替换。 `router`，就是 `router:rouetr`的缩写，
+此处的`el: '#app'`, 表示的是index中的那个 `<div id="app"></div>`, 它要被 `App` 这个组件 `components: { App }` 的模板 `template: '<App/>'`替换。 `router`，就是 `router:router`的缩写，
 
     // The Vue build version to load with the `import` command
     // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
