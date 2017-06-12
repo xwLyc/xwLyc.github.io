@@ -33,8 +33,34 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
         })();
     </script>
+
+  {% elsif site.comment.changyan %}
+    <!--高速版-->
+    <div id="SOHUCS" sid="{{ url }}"></div>
+    <script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+    <script type="text/javascript">
+    window.changyan.api.config({
+    appid: 'cyt3kcL2G',
+    conf: 'prod_2586406b0d5d50647070681821c5bf4f'
+    });
+    </script>
+
+  {% elsif site.comment.wangyiyun %}
+    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+    <script>
+
+        var cloudTieConfig = {
+            url: document.location.href, 
+            sourceId: "",
+            productKey: "e324880815f14af5a04be05239131e7b",
+            target: "cloud-tie-wrapper"
+        };
+        var yunManualLoad = true;
+        Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+    </script>
+
   {% endif %}
-  
   
   
 </section>
