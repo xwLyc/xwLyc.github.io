@@ -1,6 +1,11 @@
 $(document).ready(function() {
+  //a连接新窗口打开
+  var aTagArr = [].slice.apply(document.getElementsByTagName("a"));
 
-
+  aTagArr.forEach(function (e, i) {
+    e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;
+  });
+  
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;
