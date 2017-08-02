@@ -1,0 +1,864 @@
+[
+    {
+        "orderList": {
+            "id": 0,
+            "listname": "蔬菜水果",
+            "orderclass": [
+                {
+                    "classname": "叶菜类",
+                    "classdetail": [
+                        {
+                            "p_id": "1",
+                            "count": "0",
+                            "name": "大白菜",
+                            "detail": "帮短叶多，叶片绿色，菜心纯黄色",
+                            "price": "0.69",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "2",
+                            "count": "0",
+                            "name": "园白菜",
+                            "detail": "球心紧实，又叫绿甘蓝、包菜、卷心菜",
+                            "price": "0.78",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "3",
+                            "count": "0",
+                            "name": "紫甘蓝",
+                            "detail": "又叫紫包菜",
+                            "price": "1.59",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "瓜果类",
+                    "classdetail": [
+                        {
+                            "p_id": "4",
+                            "count": "0",
+                            "name": "冬瓜",
+                            "detail": "10-20斤/个",
+                            "price": "0.95",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "5",
+                            "count": "0",
+                            "name": "南瓜",
+                            "detail": "7-10斤/个",
+                            "price": "1.97",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "6",
+                            "count": "0",
+                            "name": "金瓜",
+                            "detail": "8-10斤/个",
+                            "price": "1.99",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "菌类",
+                    "classdetail": [
+                        {
+                            "p_id": "7",
+                            "count": "0",
+                            "name": "香菇",
+                            "detail": "大小不均",
+                            "price": "4.69",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "8",
+                            "count": "0",
+                            "name": "板菇",
+                            "detail": "大小不均",
+                            "price": "4.19",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "9",
+                            "count": "0",
+                            "name": "口蘑",
+                            "detail": "",
+                            "price": "8.89",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "10",
+                            "count": "0",
+                            "name": "茶树菇",
+                            "detail": "菌根杂质较少",
+                            "price": "6.44",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "11",
+                            "count": "0",
+                            "name": "平菇",
+                            "detail": "菌盖有少量开裂",
+                            "price": "2.55",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "12",
+                            "count": "0",
+                            "name": "金针菇",
+                            "detail": "",
+                            "price": "4.69",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "水果",
+                    "classdetail": [
+                        {
+                            "p_id": "13",
+                            "count": "0",
+                            "name": "西瓜",
+                            "detail": "约12斤/个",
+                            "price": "34",
+                            "unitprice": "个"
+                        },
+                        {
+                            "p_id": "14",
+                            "count": "0",
+                            "name": "苹果",
+                            "detail": "果径约7-8cm",
+                            "price": "4.69",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "15",
+                            "count": "0",
+                            "name": "橙子",
+                            "detail": "",
+                            "price": "9.2",
+                            "unitprice": "斤"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "orderList": {
+            "id": 1,
+            "listname": "肉禽蛋",
+            "orderclass": [
+                {
+                    "classname": "猪肉",
+                    "classdetail": [
+                        {
+                            "p_id": "16",
+                            "count": "0",
+                            "name": "五花肉",
+                            "detail": "约15斤/块",
+                            "price": "12.9",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "17",
+                            "count": "0",
+                            "name": "里脊",
+                            "detail": "约5斤/条",
+                            "price": "0.78",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "18",
+                            "count": "0",
+                            "name": "纯瘦肉",
+                            "detail": "去皮去油",
+                            "price": "12.4",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "牛肉",
+                    "classdetail": [
+                        {
+                            "p_id": "19",
+                            "count": "0",
+                            "name": "牛肚腩",
+                            "detail": "清真，牛肚皮腩肉，带油带筋，又叫肚皮腩、牛肚皮、牛腩",
+                            "price": "25.95",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "20",
+                            "count": "0",
+                            "name": "牛腱",
+                            "detail": "7-10斤/个",
+                            "price": "1.97",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "21",
+                            "count": "0",
+                            "name": "金瓜",
+                            "detail": "8-10斤/个",
+                            "price": "1.99",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "羊肉",
+                    "classdetail": [
+                        {
+                            "p_id": "22",
+                            "count": "0",
+                            "name": "羊前腿",
+                            "detail": "约2.8斤/个，清真，去油，带骨",
+                            "price": "22.70",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "23",
+                            "count": "0",
+                            "name": "羔羊前腿肉",
+                            "detail": "约5斤/个，清真，去骨",
+                            "price": "25.80",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "24",
+                            "count": "0",
+                            "name": "羊后腿",
+                            "detail": "约5斤/个，清真，带骨",
+                            "price": "25.80",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "25",
+                            "count": "0",
+                            "name": "羊里脊",
+                            "detail": "清真",
+                            "price": "26.80",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "26",
+                            "count": "0",
+                            "name": "羊腩（鲜）",
+                            "detail": "",
+                            "price": "20.80",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "27",
+                            "count": "0",
+                            "name": "羊排",
+                            "detail": "约2.3-2.7斤/扇，清真，带骨羔羊排",
+                            "price": "21.90",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "28",
+                            "count": "0",
+                            "name": "羊肉馅（细）",
+                            "detail": "清真",
+                            "price": "23.90",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "29",
+                            "count": "0",
+                            "name": "羊棒骨",
+                            "detail": "约5两/个，清真",
+                            "price": "4.8",
+                            "unitprice": "个 (按个订)斤"
+                        },
+                        {
+                            "p_id": "30",
+                            "count": "0",
+                            "name": "羊蝎子（带肉/鲜）",
+                            "detail": "约5斤/条，清真",
+                            "price": "104.00",
+                            "unitprice": "条 (按条订)"
+                        }
+                    ]
+                },
+                {
+                    "classname": "鸡肉",
+                    "classdetail": [
+                        {
+                            "p_id": "31",
+                            "count": "0",
+                            "name": "仔鸡",
+                            "detail": "约1.7斤/只，去膛后称重，又叫白条鸡、肉鸡",
+                            "price": "11.22",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "32",
+                            "count": "0",
+                            "name": "柴鸡",
+                            "detail": "约2.5斤/只，去膛后称重，黄皮",
+                            "price": "19.50",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "33",
+                            "count": "0",
+                            "name": "老鸡",
+                            "detail": "约2.5斤/只，剁成8-10块，去膛后称重，又叫淘汰鸡",
+                            "price": "19.75",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "34",
+                            "count": "0",
+                            "name": "三黄鸡",
+                            "detail": "约2斤/只，去膛后称重",
+                            "price": "13.60",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "35",
+                            "count": "0",
+                            "name": "小笨鸡",
+                            "detail": "约3斤/只，去膛后称重，又叫白皮柴鸡",
+                            "price": "26.70",
+                            "unitprice": "/只 (按只订)"
+                        },
+                        {
+                            "p_id": "36",
+                            "count": "0",
+                            "name": "土鸡",
+                            "detail": "约2.8斤/只，去膛后称重",
+                            "price": "24.92",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "37",
+                            "count": "0",
+                            "name": "乌鸡",
+                            "detail": "",
+                            "price": "17.8",
+                            "unitprice": "只 (按只订)"
+                        }
+                    ]
+                },
+                {
+                    "classname": "鸭肉",
+                    "classdetail": [
+                        {
+                            "p_id": "38",
+                            "count": "0",
+                            "name": "北京填鸭",
+                            "detail": "约4-4.5斤/只，净膛",
+                            "price": "29.25",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "39",
+                            "count": "0",
+                            "name": "老麻鸭（2.2斤）",
+                            "detail": "约2-2.4斤/只，净膛，速冻保鲜",
+                            "price": "34.69",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "40",
+                            "count": "0",
+                            "name": "白条鸭（3斤/鲜）",
+                            "detail": "约3斤/只，净膛，带鸭掌，又叫仔鸭",
+                            "price": "18.90",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "41",
+                            "count": "0",
+                            "name": "老鸭（5斤）",
+                            "detail": "约5斤/只，净膛，速冻保鲜",
+                            "price": "49.50",
+                            "unitprice": "只 (按只订)"
+                        },
+                        {
+                            "p_id": "42",
+                            "count": "0",
+                            "name": "鸭心",
+                            "detail": "",
+                            "price": "6.9",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "43",
+                            "count": "0",
+                            "name": "鸭肝（鲜）",
+                            "detail": "",
+                            "price": "7.90",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "44",
+                            "count": "0",
+                            "name": "鸭翅",
+                            "detail": "",
+                            "price": "6.9",
+                            "unitprice": "斤"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "orderList": {
+            "id": 2,
+            "listname": "水产冻货",
+            "orderclass": [
+                {
+                    "classname": "海鲜",
+                    "classdetail": [
+                        {
+                            "p_id": "45",
+                            "count": "0",
+                            "name": "多宝鱼（1.5斤）",
+                            "detail": "约1.4-1.6斤/条",
+                            "price": "33.90",
+                            "unitprice": "条 (按条订)"
+                        },
+                        {
+                            "p_id": "46",
+                            "count": "0",
+                            "name": "大黄花鱼",
+                            "detail": "约1.5斤/条，又叫大黄鱼",
+                            "price": "30.78",
+                            "unitprice": "条 (按条订)"
+                        },
+                        {
+                            "p_id": "47",
+                            "count": "0",
+                            "name": "海鲈鱼（1.5斤/冰鲜）",
+                            "detail": "约1.5斤/条",
+                            "price": "23.40",
+                            "unitprice": "条 (按条订)"
+                        },
+                        {
+                            "p_id": "48",
+                            "count": "0",
+                            "name": "三文鱼（冰鲜）",
+                            "detail": "",
+                            "price": "315.20",
+                            "unitprice": "半条 (按半条订)"
+                        },
+                        {
+                            "p_id": "49",
+                            "count": "0",
+                            "name": "石斑鱼（1.3斤）",
+                            "detail": "",
+                            "price": "54.50",
+                            "unitprice": "条 (按条订)"
+                        },
+                        {
+                            "p_id": "50",
+                            "count": "0",
+                            "name": "鲽鱼（2斤/冰鲜）",
+                            "detail": "约2斤/条，又叫比目鱼",
+                            "price": "69.20",
+                            "unitprice": "条 (按条订)"
+                        },
+                        {
+                            "p_id": "51",
+                            "count": "0",
+                            "name": "八爪鱼（鲜活）",
+                            "detail": "约3两/只，又叫章鱼",
+                            "price": "29.90",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "52",
+                            "count": "0",
+                            "name": "大连鲍鱼（8头/鲜活）",
+                            "detail": "8头/斤，带水约10%",
+                            "price": "93.00",
+                            "unitprice": "斤"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "orderList": {
+            "id": 3,
+            "listname": "粮油副食",
+            "orderclass": [
+                {
+                    "classname": "大米",
+                    "classdetail": [
+                        {
+                            "p_id": "53",
+                            "count": "0",
+                            "name": "古船大米（25kg）",
+                            "detail": "产地北京",
+                            "price": "123.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "54",
+                            "count": "0",
+                            "name": "蜜阳大米（25kg）",
+                            "detail": "实重约23.8kg/袋，特等大米，东北特产",
+                            "price": "119.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "55",
+                            "count": "0",
+                            "name": "盘锦大米",
+                            "detail": "一等大米，营养米，蟹田生态，盘锦特产",
+                            "price": "128.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "56",
+                            "count": "0",
+                            "name": "五常稻花香（双然/25kg）",
+                            "detail": "一级大米，产地黑龙江，又叫五常大米",
+                            "price": "148.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "57",
+                            "count": "0",
+                            "name": "长粒香米（大中华/25kg）",
+                            "detail": "特级大米，产地吉林",
+                            "price": "137.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "58",
+                            "count": "0",
+                            "name": "秋田小町（金稻香/21kg）",
+                            "detail": "二级大米，产地吉林",
+                            "price": "103.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "59",
+                            "count": "0",
+                            "name": "五优香米（明灿/25kg）",
+                            "detail": "一级大米，生态米，红色包装，产地黑龙江",
+                            "price": "199.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "60",
+                            "count": "0",
+                            "name": "五常香米（五粱红/25kg）",
+                            "detail": "产地黑龙江，又叫五常大米",
+                            "price": "239.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "61",
+                            "count": "0",
+                            "name": "泰国香米（玉芙蓉/25kg）",
+                            "detail": "香米纯度92%以上，原产地泰国",
+                            "price": "211.00",
+                            "unitprice": "袋"
+                        }
+                    ]
+                },
+                {
+                    "classname": "面粉",
+                    "classdetail": [
+                        {
+                            "p_id": "62",
+                            "count": "0",
+                            "name": "特精高筋小麦粉",
+                            "detail": "五星",
+                            "price": "95",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "63",
+                            "count": "0",
+                            "name": "强筋雪花小麦粉",
+                            "detail": "五星",
+                            "price": "115",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "64",
+                            "count": "0",
+                            "name": "贰零高筋小麦粉",
+                            "detail": "实重约23.5kg/袋，五得利好面缘面粉",
+                            "price": "98",
+                            "unitprice": "袋"
+                        }
+                    ]
+                },
+                {
+                    "classname": "食用油",
+                    "classdetail": [
+                        {
+                            "p_id": "65",
+                            "count": "0",
+                            "name": "大豆油",
+                            "detail": "5L/桶，一级大豆油",
+                            "price": "34.69",
+                            "unitprice": "桶"
+                        }
+                    ]
+                },
+                {
+                    "classname": "杂粮",
+                    "classdetail": [
+                        {
+                            "p_id": "66",
+                            "count": "0",
+                            "name": "花生米",
+                            "detail": "约大小不均，稍有差异",
+                            "price": "5.9",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "67",
+                            "count": "0",
+                            "name": "三粒干花生",
+                            "detail": "",
+                            "price": "8.69",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "68",
+                            "count": "0",
+                            "name": "五香花生米",
+                            "detail": "",
+                            "price": "9.2",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "淀粉",
+                    "classdetail": [
+                        {
+                            "p_id": "69",
+                            "count": "0",
+                            "name": "超级生粉",
+                            "detail": "",
+                            "price": "261.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "70",
+                            "count": "0",
+                            "name": "土豆淀粉",
+                            "detail": "",
+                            "price": "4.00",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "71",
+                            "count": "0",
+                            "name": "红薯淀粉",
+                            "detail": "",
+                            "price": "4.00",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "72",
+                            "count": "0",
+                            "name": "绿豆淀粉",
+                            "detail": "",
+                            "price": "4.00",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "73",
+                            "count": "0",
+                            "name": "澄面",
+                            "detail": "",
+                            "price": "4.00",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "74",
+                            "count": "0",
+                            "name": "玉米淀粉（丰花）",
+                            "detail": "",
+                            "price": "4.00",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "粉丝粉条",
+                    "classdetail": [
+                        {
+                            "p_id": "75",
+                            "count": "0",
+                            "name": "宽粉",
+                            "detail": "",
+                            "price": "26.00",
+                            "unitprice": "袋"
+                        },
+                        {
+                            "p_id": "76",
+                            "count": "0",
+                            "name": "土豆粉",
+                            "detail": "",
+                            "price": "4.00",
+                            "unitprice": "袋"
+                        }
+                    ]
+                },
+                {
+                    "classname": "豆制品",
+                    "classdetail": [
+                        {
+                            "p_id": "77",
+                            "count": "0",
+                            "name": "老豆腐（石膏/散称）",
+                            "detail": "",
+                            "price": "1.70",
+                            "unitprice": "斤"
+                        },
+                        {
+                            "p_id": "78",
+                            "count": "0",
+                            "name": "米豆腐",
+                            "detail": "",
+                            "price": "2.00",
+                            "unitprice": "斤"
+                        }
+                    ]
+                },
+                {
+                    "classname": "加工面点",
+                    "classdetail": [
+                        {
+                            "p_id": "79",
+                            "count": "0",
+                            "name": "馒头",
+                            "detail": "",
+                            "price": "0.6",
+                            "unitprice": "个"
+                        },
+                        {
+                            "p_id": "80",
+                            "count": "0",
+                            "name": "花卷",
+                            "detail": "",
+                            "price": "0.70",
+                            "unitprice": "个"
+                        },
+                        {
+                            "p_id": "81",
+                            "count": "0",
+                            "name": "豆沙包",
+                            "detail": "",
+                            "price": "1.10",
+                            "unitprice": "个"
+                        }
+                    ]
+                },
+                {
+                    "classname": "速冻面点",
+                    "classdetail": [
+                        {
+                            "p_id": "82",
+                            "count": "0",
+                            "name": "奶香馒头（丽春达）",
+                            "detail": "160g/袋（12个），速冻食品",
+                            "price": "61.00",
+                            "unitprice": "箱"
+                        },
+                        {
+                            "p_id": "83",
+                            "count": "0",
+                            "name": "水饺",
+                            "detail": "",
+                            "price": "89.00",
+                            "unitprice": "箱"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "orderList": {
+            "id": 4,
+            "listname": "餐厨用品",
+            "orderclass": [
+                {
+                    "classname": "纸巾类",
+                    "classdetail": [
+                        {
+                            "p_id": "84",
+                            "count": "0",
+                            "name": "抽纸",
+                            "detail": "100包/箱，雪白金加厚型，180mm×95mm",
+                            "price": "61.00",
+                            "unitprice": "箱"
+                        },
+                        {
+                            "p_id": "85",
+                            "count": "0",
+                            "name": "餐巾纸",
+                            "detail": "60包/箱，50抽/包， 270mm×270mm",
+                            "price": "92.00",
+                            "unitprice": "箱"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "orderList": {
+            "id": 5,
+            "listname": "调料",
+            "orderclass": [
+                {
+                    "classname": "醋",
+                    "classdetail": [
+                        {
+                            "p_id": "86",
+                            "count": "0",
+                            "name": "陈醋",
+                            "detail": "30袋×350ml，山西特产",
+                            "price": "36.00",
+                            "unitprice": "箱"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "orderList": {
+            "id": 6,
+            "listname": "酒水饮料",
+            "orderclass": [
+                {
+                    "classname": "啤酒",
+                    "classdetail": [
+                        {
+                            "p_id": "87",
+                            "count": "0",
+                            "name": "青岛啤酒",
+                            "detail": "324瓶×330ml，原麦汁浓度11°",
+                            "price": "86.00",
+                            "unitprice": "箱"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
