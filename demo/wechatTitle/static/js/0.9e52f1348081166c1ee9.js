@@ -1,0 +1,2 @@
+webpackJsonp([0],{UiOb:function(e,t,n){"use strict";t.a={data:function(){return{msg:"Welcome to Your List Page"}}}},cOL3:function(e,t,n){"use strict";var s=function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",{staticClass:"list"},[e._v("\n  "+e._s(e.msg)+"\n")])},r=[],a={render:s,staticRenderFns:r};t.a=a},pjeT:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s=n("UiOb"),r=n("cOL3"),a=n("VU/8"),c=a(s.a,r.a,null,null,null);t.default=c.exports}});
+//# sourceMappingURL=0.9e52f1348081166c1ee9.js.map
