@@ -1,2 +1,0 @@
-webpackJsonp([2],{"/l7n":function(e,t,n){"use strict";var a=function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",{staticClass:"detail"},[e._v("\n  "+e._s(e.msg)+"\n")])},s=[],l={render:a,staticRenderFns:s};t.a=l},lFou:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=n("mJiD"),s=n("/l7n"),l=n("VU/8"),r=l(a.a,s.a,null,null,null);t.default=r.exports},mJiD:function(e,t,n){"use strict";t.a={data:function(){return{msg:"Welcome to Your Detail Page"}}}}});
-//# sourceMappingURL=2.9f27c508b6070a367a85.js.map
