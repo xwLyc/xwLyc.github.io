@@ -26,7 +26,14 @@ tag: vue
 
 ### 解决方案
 
-效果预览：[效果](../../../demo/wechatTitle/index.html)
+gitHub代码：[https://github.com/xwLyc/vue-wechat-title](https://github.com/xwLyc/vue-wechat-title)
+
+[在线效果预览](../../../demo/wechatTitle/index.html)
+
+手机扫描预览：
+
+![预览](../../../images/2017/09/rwmWechatTitle.png)
+
 
 utils/setWechatTitle.js 文件
 
