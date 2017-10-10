@@ -216,7 +216,7 @@ table {
   line-height: 40px;
   border: 2px solid #363636;
   width: 90%;
-  margin: 50px auto; }
+  margin: 30px auto; }
 
 thead tr:first-child {
   background-color: #E0EEEE;
@@ -240,7 +240,9 @@ th:first-child, td:first-child {
 tbody td {
   font-size: .85em; 
   border: 1px solid #363636;
-  padding: 0px 0.8rem;
+  padding: 7px 0.8rem;
+  line-height: 26px;
+
 }
 td:last-child {
   padding-right: 10px; 
