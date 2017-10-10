@@ -23,7 +23,7 @@ parseInt(string, radix)
 | radix         | 可选。表示要解析的数字的基数。该值介于 2 ~ 36 之间。 <br>  如果省略该参数或其值为 `0`，则数字将以 10 为基础来解析。 <br> 如果它以 `"0x"` 或 `"0X"` 开头，将以 16 为基数。如果该参数小于 2 或者大于 36，则 `parseInt()` 将返回 `NaN`。 | 
 
 #### **注意**
-如果`parseInt(string,radix)`中的, `string`数字大于等于 非零的`radix`也会返回`NaN`
+如果`parseInt(string,radix)`中的, 小于10的`string`数字 大于等于 非零的`radix`也会返回`NaN`，还有其它 NaN情况就控制台打印试试~~
 
 ### map() 函数
 
