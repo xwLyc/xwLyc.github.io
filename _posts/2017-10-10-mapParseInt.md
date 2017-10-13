@@ -5,6 +5,12 @@ date: 2017-10-10
 description: "为什么 ['1', '2', '3'].map(parseInt) 返回 [1, NaN, NaN]？"
 tag: JavaScript
 ---   
+**[javascript-puzzlers](http://javascript-puzzlers.herokuapp.com?_blank/)** 被称为 javascript 界的专业八级测验，感兴趣的 jser 可以去试试。
+
+自己亲测了下，只对了一半多一点... 路漫漫其修远兮，吾将上下而求索~ js的路还有好远~~~
+
+**进入正题：**
+
 在 javascript 中 `['1', '2', '3'].map(parseInt)` 为何返回不是 [1, 2, 3] 却是 [1, NaN, NaN]？
 
 我们首先回顾一下 `parseInt() `个 `map()` 两个函数的用法：
