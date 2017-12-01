@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "小五解密之['1', '2', '3'].map(parseInt) "
+title: "map 解密之['1', '2', '3'].map(parseInt) "
 date: 2017-10-10
 description: "为什么 ['1', '2', '3'].map(parseInt) 返回 [1, NaN, NaN]？"
 tag: JavaScript
