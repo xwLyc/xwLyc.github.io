@@ -10,10 +10,9 @@ url: "http://github.xwlyc.io"
 
 # Comment
 comment:
-    # disqus: lyc
-    # duoshuo: lyc 
     # changyan: lyc
-    wangyiyun: lyc
+    # wangyiyun: lyc
+    laibili: lyc
 
 
 # Socialsocial:
@@ -58,7 +57,7 @@ nav:
 
 # Pagination
 gems: [jekyll-paginate]
-paginate: 20
+paginate: 15
 paginate_path: "page/:num/"
 
 

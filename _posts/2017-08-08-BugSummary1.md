@@ -12,6 +12,10 @@ tag: bug
 
 ## 微信sdk 录音开发的bug
 
+### 有些用户点击录音，录音没有反应
+
+微信开发一定要在执行wx.ready()，后再调用其他方法。 虽然文档说，用户触发事件不需要写在 ready()函数里，但是有些用户手机还是有问题的，所以必需要写在 ready()函数里。
+
 ### invalid signature签名错误
 
 微信sdk开发官网列出了一些常见的错误 见 [微JS-SDK说明文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115) 中的 附录5-常见错误及解决方法
