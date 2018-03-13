@@ -31,8 +31,12 @@ ES6 引入了一种新的原始数据类型Symbol，表示独一无二的值。
         if(JSON.stringify(obj)=='{}'){
             console.log('空')
         }
+3. getOwnPropertyNames属性判断
 
-3. ES6新增方法 Object.keys()
+        if(Object.getOwnPropertyNames(obj).length === 0){
+            console.log('空对象')
+        }
+4. ES6新增方法 Object.keys()
 
         let obj = {}
         if(Object.keys(obj).length==0){

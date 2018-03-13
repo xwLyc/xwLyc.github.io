@@ -16,6 +16,31 @@ tag: bug
 
 解决方法：要在ajax方法执行完成后，再执行页面跳转。即把 `window.location.href = 'xxx.html';` 写到 `complete` 方法里。
 
+
+### ios 日期格式化 的坑。javascript根据字符串创建Date对象，在ios中无效
+
+今天在测试的时候发现，在Chrome中的如下代码：
+ 
+new Date("2014-03-09");
+
+在Safari以及ios中报错invalid date。经过查阅资料找到类似的问答：
+ 
+解释与翻译如下：
+ 
+目前Safari可以支持的标准格式如下：
+ 
+yyyy/MM/dd
+MM/dd/yyyy
+MMMM dd, yyyy
+MMM dd, yyyy
+就是说，并不支持 MM-dd-yyyy，所以转换成 其他格式就可以了。
+ 
+    var date = '2012-1-16 13:20';
+    var time = date.replace(/-/g,"/");  
+    dateTime = new Date(time).getTime(); 
+
+
+
 ### css3 的 `animation keyframe` 动画，在pc，安卓正常，ios无动画。
 
 解决方案：每个动画样式，新增一个 `-webkit-` 前缀样式，所以css3动画兼容要写全，不能偷懒。
@@ -105,3 +130,5 @@ PS：需要引入微信sdk, wx.ready 后执行播放。
 ### video 播放，安卓下层级 max高，在其它弹框之上，设置z-index无效。
 
 安卓bug, 等视频播放完毕后，隐藏掉 video标签即可。
+
+注意： 一定要只在安卓的情况下隐藏，否则隐藏了ios系统的，ios全屏播放完毕后，会黑屏。。
