@@ -115,10 +115,9 @@ h1 {
 
 h2 {
     font-size: 1.5em; 
-    line-height: 2.0em;
-    padding: 16px;
-    background: #e9e9ea;
-    border: 3px solid #aaa;
+  /*background:#B9D3EE;*/
+  /*text-align: center;*/
+   
 }
 
 h3 {
@@ -853,10 +852,12 @@ img::-moz-selection {
   }
 
   .post-list__post-title {
-   margin-top: 5px;
-    margin-bottom: .2em;
-    font-size: 1.5em;
-    line-height: 1.3em;
+        font-size: 1.5em;
+        line-height: 2em;
+        margin: 0;
+        border: none;
+        background: none;
+        padding: 0;
   }
   .post-list__post-title a {
    color: #333333; 
