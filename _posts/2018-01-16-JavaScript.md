@@ -44,3 +44,12 @@ ES6 引入了一种新的原始数据类型Symbol，表示独一无二的值。
         }else{
             alert('非空对象')
         }
+
+
+### 微信端js防止页面后退
+
+    //防止页面后退
+    history.pushState(null, null, document.URL);
+    window.addEventListener('popstate', function () {
+        history.pushState(null, null, document.URL);
+    });
