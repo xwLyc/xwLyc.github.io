@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "优雅的进行vue-router文件管理"
-date: 2018-05-15
+date: 2018-05-22
 description: "高效管理自己的vue-router文件"
 tag: Vue
 ---   
