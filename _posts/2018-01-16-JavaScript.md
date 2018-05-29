@@ -53,3 +53,32 @@ ES6 引入了一种新的原始数据类型Symbol，表示独一无二的值。
     window.addEventListener('popstate', function () {
         history.pushState(null, null, document.URL);
     });
+
+### js导出表格（点击按钮直接下载表格）
+
+    var funDownload = function (url, filename) {
+        // 创建隐藏的可下载链接
+        var eleLink = document.createElement('a');
+        eleLink.href = url;
+        if(filename){
+            eleLink.download = filename;
+        }else{
+            eleLink.download = ""
+        }
+        eleLink.style.display = 'none';
+        // // 字符内容转变成blob地址
+        // var blob = new Blob([content]);
+        // eleLink.href = URL.createObjectURL(blob);
+        // 触发点击
+        document.body.appendChild(eleLink);
+        eleLink.click();
+        // 然后移除
+        document.body.removeChild(eleLink);
+    };
+
+    // 调用 
+    /**
+    *@url 后台返回的表格地址
+    *@name 下载后的excel表名字，不传默认为后台返回名字
+    */
+    funDownload(url, name) 
