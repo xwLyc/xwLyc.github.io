@@ -50,7 +50,7 @@ tag: Javascript
 
 ### (2) async await 
 
-不得不感叹 async await 在异步处理方面确实很强大，代码书写方式确实同步的。
+不得不感叹 async await 在异步处理方面确实很强大，代码书写方式却是同步的。
 
     async function p() {
         let user = await login();
@@ -67,7 +67,7 @@ tag: Javascript
         console.log(result);
     });
 
-### promise.all 和 async await 混合
+### （3）promise.all 和 async await 混合
 
     async function p() {
         let next = await Promise.all([login(), getUserInfo()])
