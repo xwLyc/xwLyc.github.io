@@ -70,11 +70,11 @@ tag: Javascript
 ### （3）promise.all 和 async await 混合
 
     async function p() {
-        let next = await Promise.all([login(), getUserInfo()])
+        let [res1, res2] = await Promise.all([login(), getUserInfo()])
         let data = {
-            userId: next[0].code,
-            avatarUrl: next[1].userInfo.avatarUrl,
-            nickName: next[1].userInfo.nickName
+            userId: res1.code,
+            avatarUrl: res2.userInfo.avatarUrl,
+            nickName: res2.userInfo.nickName
         }
         return await request('/user/insertUser.do', data, 'GET');
     }
