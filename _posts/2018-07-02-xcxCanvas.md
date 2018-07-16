@@ -41,6 +41,12 @@ tag: 小程序
             ctx.clip();     //剪切某个区域， 使得后面绘制的都在 arc里面
             ctx.drawImage(avatarUrl, transitionPX(70), transitionPX(448), headSize, headSize);
             ctx.restore()   //恢复之前的绘图环境，不然以后绘制的都不显示，类似 overflow:hidden效果
+            //头像添加 宽度为3的白色border
+            ctx.beginPath();
+            ctx.arc(transitionPX(133),transitionPX(511), headSize/2, 0, 2*Math.PI);
+            ctx.lineWidth = 3;
+            ctx.setStrokeStyle('#FFFFFF')
+            ctx.stroke();
 
 
             //非常重要 canvasToTempFilePath 需要放在draw的回调函数里面，保证能在 draw 绘制完成后，生成图片地址
@@ -50,8 +56,8 @@ tag: 小程序
                     y: 0,
                     width: canvasW,
                     height: canvasH,
-                    destWidth: canvasW,
-                    destHeight: canvasH,
+                    destWidth: canvasW*this.pixelRatio,         //重要：通过 getSystemInfo 获取当前设备的分辨率，不然会出现分享的图片模糊问题
+                    destHeight: canvasH*this.pixelRatio,
                     canvasId: 'myCanvas',
                     success: (res)=> {
                         // console.log(res.tempFilePath)
