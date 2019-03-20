@@ -288,12 +288,7 @@ td:last-child {
 }
 .pager li>a:hover,
 .pager li>a:focus { 
-  color:#fff;
-  background-color:#B9D3EE;
-}
-.pager li>a:hover>span,
-.pager li>a:focus>span{
-  color:#fff;
+  text-decoration: underline;
 }
 ::-moz-selection { 
   color:#fff;
