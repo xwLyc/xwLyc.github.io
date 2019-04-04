@@ -60,7 +60,8 @@ ECMAScirpt 变量有两种不同的数据类型：基本类型，引用类型。
 
 那么它的存储结构如下图：
 
-![img1](https://segmentfault.com/img/bVlRQT)
+![img9](../../../images/2018/05/9.png)
+
 
 栈区包括了 变量的标识符和变量的值。
 
@@ -99,7 +100,7 @@ javascript和其他语言不同，其不允许直接访问内存中的位置，�
 
 则这三个对象的在内存中保存的情况如下图：
 
-![img2](https://segmentfault.com/img/bVlRRK)
+![img10](../../../images/2018/05/10.png)
 
 #### 3.引用类型的比较是引用的比较
 
@@ -117,7 +118,7 @@ javascript和其他语言不同，其不允许直接访问内存中的位置，�
 
 别忘了，引用类型时按引用访问的，换句话说就是比较两个对象的堆内存中的地址是否相同，那很明显，person1和person2在堆内存中地址是不同的：
 
-![img3](https://segmentfault.com/img/bVlRSw)
+![img11](../../../images/2018/05/11.png)
 
 所以这两个是完全不同的对象，所以返回false;
 
@@ -134,7 +135,7 @@ javascript和其他语言不同，其不允许直接访问内存中的位置，�
 
 此时，a中保存的值为 10 ，当使用 a 来初始化 b 时，b 中保存的值也为10，但b中的10与a中的是完全独立的，该值只是a中的值的一个副本，此后，这两个变量可以参加任何操作而相互不受影响。
 
-![img4](https://segmentfault.com/img/bVlSaN)
+![img12](../../../images/2018/05/12.png)
 
 也就是说基本类型在赋值操作后，两个变量是相互不受影响的。
 
@@ -157,8 +158,8 @@ javascript和其他语言不同，其不允许直接访问内存中的位置，�
 
 它们的关系如下图：
 
-![img5](https://segmentfault.com/img/bVlSc9)
+![img13](../../../images/2018/05/13.png)
 
 因此，引用类型的赋值其实是对象保存在栈区地址指针的赋值，因此两个变量指向同一个对象，任何的操作都会相互影响。
 
-转载[https://segmentfault.com/a/1190000002789651](https://segmentfault.com/a/1190000002789651)
+转载[https://segmentfault.com/a/1190000002789651](https://segmentfault.com/a/1190000002789651?_blank)
