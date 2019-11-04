@@ -192,6 +192,7 @@ code {
   word-wrap: break-word; }
 
 pre {
+  max-height: 35em;
   margin-bottom: 1.3em;
   padding: 1em 2.5%;
   background: #e8f2fb;
