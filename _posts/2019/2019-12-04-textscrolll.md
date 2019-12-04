@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "vue 实现文字无缝滚动效果（从下往上滚动）"
-date: 2019-12-06
+date: 2019-12-04
 description: "vue 实现文字无缝滚动效果（从下往上滚动）"
 tag: vue 
 ---   
 
 #### 需求：对中奖用户进行滚动效果展示
 
-![Kapture 2019-12-04 at 14.36.51.gif](https://segmentfault.com/img/bVbA5xY)
+![Kapture 2019-12-04 at 14.36.51.gif](https://image-static.segmentfault.com/398/380/3983800482-5de7541f3d3e9_articlex)
 
 这种效果需求还是蛮多的，想起之前用`JQuery`实现的一个无缝滚动( [缅怀过去](https://www.jq22.com/jquery-info1237))，是通过jq的`animate`方法实现的，动画结束之后就将第一个元素`appendTo`追加到最后面，实现循环滚动特效，不得不感叹技术更新换代真的很快。
 
@@ -35,6 +35,7 @@ tag: vue
       </div>
       
 **script部分**
+
     export default {
       name: "marquee-up",
       data() {
