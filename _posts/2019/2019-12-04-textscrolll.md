@@ -23,7 +23,7 @@ tag: vue
 
 因为vue是基于数据驱动的，所以，对我们开发者来说，直接操控数组，删除第一个数组数据，然后追加到数组后面就好了。
 
-点此查看[实现效果以及源码预览](https://codesandbox.io/s/crazy-hermann-s18jm?fontsize=14&hidenavigation=1&theme=dark)可以略过下面的内容
+点此查看[实现效果以及源码预览](https://codesandbox.io/s/vue-marquee-s18jm)可以略过下面的内容
 
 **template 部分**
 
