@@ -75,4 +75,6 @@ Android是没有问题的。
 
 绘制海报图的兼容问题真是头疼的一件事情，但是能解决掉它还是令人兴奋的事情， 开发痛并快乐着 😂😂😂
 
+自己写了一个demo，展示地址是这个 [https://uq1uv.csb.app/](https://uq1uv.csb.app/=?_blank) 看看大家的手机都支持不，有问题的欢迎反馈！！
 
+demo地址： [![Edit create-poster](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/create-poster-uq1uv?fontsize=14&hidenavigation=1&theme=dark)
