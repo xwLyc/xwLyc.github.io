@@ -474,6 +474,7 @@ img::-moz-selection {
     /* margin: 0 auto; */
     border-radius: 3px;
     text-align: center;
+    max-height: 300px;
     display: block; }
   .post pre {
     width: 95%;

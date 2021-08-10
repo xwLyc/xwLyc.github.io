@@ -1,0 +1,52 @@
+I"�<h4 id="h5安卓低版本ios10白屏问题总结">H5安卓低版本,ios10白屏问题总结</h4>
+
+<h3 id="背景">背景</h3>
+
+<p>在公司App内嵌h5页面的项目中，在Android某些机型会出现h5加载不出来，也就是白屏现象，具体机型魅蓝Note6，操作系统版本5.0及以下
+在某些机型的浏览器也会出现白屏问题</p>
+
+<h3 id="端上问题反馈">端上问题反馈</h3>
+
+<p>APP中会加载腾讯x5内核，但不一定成功，失败了就走系统内核，有可能是低版本的系统内核有兼容问题
+端上控制台输出</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+11-23 11:31:42.822 19201-19201/? I/wvtest: 0
+
+11-23 11:32:33.042 19201-19201/com.tal.usercenter.myapplication I/wvtest: 19
+
+11-23 11:32:33.062 19201-19201/com.tal.usercenter.myapplication I/wvtest: Viewport argument key "viewport-fit" not recognized and ignored.
+
+11-23 11:32:33.122 19201-19201/com.tal.usercenter.myapplication I/wvtest: Uncaught SyntaxError: Use of future reserved word in strict mode
+
+11-23 11:32:33.122 19201-19201/com.tal.usercenter.myapplication I/wvtest: Uncaught SyntaxError: &lt;unknown message reserved_word&gt;
+
+11-23 11:32:33.122 19201-19201/com.tal.usercenter.myapplication I/wvtest: 100
+
+</code></pre></div></div>
+
+<h3 id="问题排查">问题排查</h3>
+
+<p>通过端上控制台输出报错，排查到是文件中包含<code class="language-plaintext highlighter-rouge">const，let</code>关键字，但是低版本浏览器不支持，所以出现白屏现象</p>
+
+<p>并通过打包后的js代码去搜索，果然含有const关键字</p>
+
+<p>默认情况下 <code class="language-plaintext highlighter-rouge">babel-loader</code> 会忽略所有 <code class="language-plaintext highlighter-rouge">node_modules</code> 中的文件，所以可能是npm中引入的某些包有问题，没有完全编译成es5</p>
+
+<p>经过排查是<code class="language-plaintext highlighter-rouge">swiper</code>这个npm包导致</p>
+
+<h3 id="解决问题">解决问题</h3>
+
+<p><code class="language-plaintext highlighter-rouge">vue.config.js</code>中有一个配置项为<code class="language-plaintext highlighter-rouge">transpileDependencies</code>，官方解释：默认情况下 babel-loader 会忽略所有 node_modules 中的文件。如
+果你想要通过 Babel 显式转译一个依赖，可以在这个选项中列出来</p>
+
+<p>第一版解决方案加入swiper配置   <code class="language-plaintext highlighter-rouge">transpileDependencies: ['swiper']</code>，经过打包校验，没有生效</p>
+
+<p>通过查找资料，是swiper中引入了其他的npm包，是其他npm包导致的问题，最终把swiper依赖的包通过Babel转义</p>
+
+<p>最终配置：<code class="language-plaintext highlighter-rouge">transpileDependencies: ['swiper', 'dom7', 'ssr-window']</code>  经过QA测试，问题解决</p>
+
+<h3 id="相关资料">相关资料</h3>
+
+<p>https://segmentfault.com/a/1190000016334023</p>
+:ET

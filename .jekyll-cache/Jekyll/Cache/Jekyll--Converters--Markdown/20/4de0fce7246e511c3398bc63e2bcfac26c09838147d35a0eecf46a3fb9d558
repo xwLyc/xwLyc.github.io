@@ -1,0 +1,35 @@
+I"m<h4 id="fastclick偶遇vue-clipboard2或clipboardjs-ios无法复制">fastclick偶遇vue-clipboard2或clipboardJS ios无法复制</h4>
+
+<h3 id="背景">背景</h3>
+
+<p>在集团app内的移动端页面，使用vue-clipboard2发现ios端无法复制，改用clipboardJS也不能复制。</p>
+
+<h3 id="问题排查">问题排查</h3>
+
+<p>安卓是可以的，但是ios怎么也复制不了。</p>
+
+<p>经过长时间的问题排查以及资料查询，最终发现，是由于使用了<code class="language-plaintext highlighter-rouge">fastclick</code>，而<code class="language-plaintext highlighter-rouge">fastclick</code>构造了自定义事件提前触发。</p>
+
+<p>ios无法触发复制，是因为系统剪贴板命令需要原生click触发。</p>
+
+<h3 id="解决问题">解决问题</h3>
+
+<p>在使用<code class="language-plaintext highlighter-rouge">fastclick</code>库的情况，需要给元素添加<code class="language-plaintext highlighter-rouge">classname="needsclick"</code>，默认让这个元素走原生click。</p>
+
+<p>原理如下，fastclick库源码：</p>
+
+<p><img src="../../../images/2020/03/01.jpg" alt="pic" /></p>
+
+<p><img src="../../../images/2020/03/02.png" alt="pic" /></p>
+
+<p><img src="../../../images/2020/03/03.png" alt="pic" /></p>
+
+<p>后来仔细看了文档，已经明确的写明，自定义事件是无法访问系统粘贴板的。</p>
+
+<p><em>A synthetic paste event must not give a script access to data on the real system clipboard. Synthetic cut and copy events must not modify data on the system clipboard.
+Synthetic paste events do not have any default action. Even if such an event is dispatched in an editable context, the implementation must not insert any data.</em></p>
+
+<h3 id="相关资料">相关资料</h3>
+
+<p>fastclick.js 其它坑也需要注意。 <a href="https://www.jianshu.com/p/5b578e656966">iOS11.3 fastclick.js相关bug</a></p>
+:ET
