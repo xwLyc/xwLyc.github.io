@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "规范-git提交规范"
+title: "【rules-cli】check-message git提交规范"
 date: 2020-07-21
 description: "规范-git提交规范"
 tag: h5

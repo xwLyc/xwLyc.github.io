@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "规范-分支命名规范"
+title: "【rules-cli】check-branch 分支命名规范"
 date: 2020-07-21
 description: "规范-分支命名规范"
 tag: h5

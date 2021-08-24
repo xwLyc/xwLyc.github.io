@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "规范-代码质量规范"
+title: "【rules-cli】check-code 代码质量规范"
 date: 2020-08-30
 description: "规范-代码质量规范"
 tag: h5
